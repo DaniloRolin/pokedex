@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  width: 23%;
+  border-radius: 1em;
+  border: 2px solid #e33d33;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  background-color: #333;
+  color: #fff;
+  position:absolute;
+  left: 50%;
+    transform: translate(-50%, 100%);
+    
+}
+
+.container a{
+    color: #e33d33;
+    margin-top:20px;
+}
+
+.container a:hover{
+    color:#FFF;
+}
